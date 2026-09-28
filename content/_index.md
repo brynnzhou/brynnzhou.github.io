@@ -1,98 +1,69 @@
 ---
-# Homepage
+# Leave the homepage title empty to use the site title
 title: ''
 summary: ''
 date: 2022-10-24
 type: landing
 
 sections:
-
-  # ─────────────────────────────────────────────
-  # PROFILE / ABOUT
-  # ─────────────────────────────────────────────
   - block: resume-biography-3
     content:
+      # Choose a user profile to display (a folder name within content/authors/)
       username: me
       text: ''
-
+      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
-
       headings:
         about: ''
-        education: 'Education'
-        interests: 'Research Interests'
-
+        education: ''
+        interests: ''
     design:
-      # Clean background rather than the default colorful gradient
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
-          enable: false
+          enable: true
 
-      # Slightly restrained name size
+      # Name heading sizing to accommodate long or short names
       name:
-        size: md
+        size: md # Options: xs, sm, md, lg (default), xl
 
-      # Profile photo
+      # Avatar customization
       avatar:
-        size: medium
-        shape: circle
-
-
-  # ─────────────────────────────────────────────
-  # RESEARCH
-  # ─────────────────────────────────────────────
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    id: research
     content:
-      title: 'Research'
+      title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research focuses on human–environment interactions, particularly how visual and acoustic characteristics of urban environments influence perceptual, psychological, and physiological responses.
+        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        My current work investigates audio-visual interactions, soundscapes, natural sounds, and greenery, with broader interests in environmental restorativeness, human health and well-being, and design visualization and auralization.
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 
+        Please reach out to collaborate 😃
     design:
       columns: '1'
-
-
-  # ─────────────────────────────────────────────
-  # PUBLICATIONS
-  # ─────────────────────────────────────────────
   - block: collection
-    id: publications
+    id: papers
     content:
-      title: 'Publications'
-      subtitle: ''
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    content:
+      title: Recent Publications
       text: ''
-
       filters:
         folders:
           - publications
         exclude_featured: false
-
     design:
       view: citation
-      columns: 1
-
-
-  # ─────────────────────────────────────────────
-  # PRESENTATIONS
-  # ─────────────────────────────────────────────
-  - block: collection
-    id: presentations
-    content:
-      title: 'Presentations'
-      subtitle: ''
-      text: ''
-
-      filters:
-        folders:
-          - events
-
-    design:
-      view: citation
-      columns: 1
-
 ---
