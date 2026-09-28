@@ -14,7 +14,7 @@ authors:
   - Puay Yok Tan
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-11-01T00:00:00Z"
+date: "2026-02-01"
 
 # Publication type.
 publication_types: ["article-journal"]
