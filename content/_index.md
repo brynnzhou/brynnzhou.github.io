@@ -7,8 +7,9 @@ type: landing
 
 sections:
 
-  # Biography
+  # About
   - block: resume-biography
+    id: about
     content:
       username: me
       text: ''
@@ -23,6 +24,7 @@ sections:
 
   # Education
   - block: markdown
+    id: education
     content:
       title: 'Education'
       subtitle: ''
