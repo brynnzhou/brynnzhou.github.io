@@ -55,7 +55,6 @@ hugoblox:
       footer:
         background: "#F4F4F1"
         foreground: "#202124"
-        foreground: "#F1F1F3"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
