@@ -1,3 +1,26 @@
+---
+# Leave the homepage title empty to use the site title
+title: ''
+summary: ''
+date: 2022-10-24
+type: landing
+
+sections:
+
+  # Biography
+  - block: resume-biography
+    content:
+      username: me
+      text: ''
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      avatar:
+        size: medium
+        shape: circle
+
+
   # Education
   - block: markdown
     content:
@@ -22,6 +45,7 @@
           </div>
         </div>
 
+
         <div style="margin-bottom: 2.2rem;">
           <div style="font-size: 1.20rem; font-weight: 650; color: #18181B; margin-bottom: 0.3rem;">
             Master of Landscape Architecture
@@ -40,6 +64,7 @@
           </div>
         </div>
 
+
         <div>
           <div style="font-size: 1.20rem; font-weight: 650; color: #18181B; margin-bottom: 0.3rem;">
             Bachelor of Environmental Design
@@ -52,3 +77,19 @@
 
     design:
       columns: '1'
+
+
+  # Publications
+  - block: collection
+    id: publications
+    content:
+      title: 'Publications'
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
+
+---
