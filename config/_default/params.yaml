@@ -47,11 +47,11 @@ hugoblox:
   
     surfaces:
       background: "#FFFFFF"
-      foreground: "#18181B"
+      foreground: "#111111"
   
       header:
         background: "#FFFFFF"
-        foreground: "#18181B"
+        foreground: "#111111"
   
       footer:
         background: "#F7F7F7"
