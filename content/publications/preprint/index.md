@@ -15,12 +15,15 @@ authors:
   - Paolo Burlando
   - Puay Yok Tan
 
+# Accepted on 9 September 2026.
+date: "2026-09-09"
+
 # Publication type.
 publication_types: ["article-journal"]
 
 # Publication metadata.
 publication:
-  name: "Socio-Ecological Practice Research"
+  name: "Socio-Ecological Practice Research (In press)"
 
 abstract: ""
 
