@@ -28,10 +28,14 @@ sections:
       subtitle: ''
       text: |-
         **PhD in Architecture**  
-        National University of Singapore, 2022–2026
+        National University of Singapore, 2022–2026  
+        Thesis: *Effects of Natural Sounds and Greenery on Soundscape Experience: Dose-Response Relationships, Thresholds, and Exposure Characteristics*  
+        Advisors: Prof. Tan Puay Yok and Prof. Lau Siu Kit
 
         **Master of Landscape Architecture**  
-        National University of Singapore, 2019–2021
+        National University of Singapore, 2019–2021  
+        Dissertation: *A Comparison of Photogrammetry Generated Point Clouds and 360 Degree Panoramic Photos for Semi-immersive Online Teaching of Landscape Architecture*  
+        Advisor: Dr. Lin Shengwei Ervine
 
         **Bachelor of Environmental Design**  
         Tianjin Academy of Fine Arts, 2015–2019
