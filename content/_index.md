@@ -6,6 +6,7 @@ date: 2022-10-24
 type: landing
 
 sections:
+
   # Biography
   - block: resume-biography
     content:
@@ -19,19 +20,61 @@ sections:
         size: medium
         shape: circle
 
+
+  # Research Interests + Education
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+        <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: start;">
+
+        <div>
+
+        ## Research Interests
+
+        - Audio-Visual Interactions
+        - Soundscape
+        - Psychophysiological Responses to Urban Environments
+        - Human–Environment Interactions and Well-being
+
+        </div>
+
+        <div>
+
+        ## Education
+
+        🎓 **PhD in Architecture**  
+        National University of Singapore  
+        2022–2026
+
+        🎓 **Master of Landscape Architecture**  
+        National University of Singapore  
+        2019–2021
+
+        🎓 **Bachelor of Environmental Design**  
+        Tianjin Academy of Fine Arts  
+        2015–2019
+
+        </div>
+
+        </div>
+    design:
+      columns: '1'
+
+
   # Research
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on human–environment interactions, particularly how visual and acoustic characteristics of urban environments influence perceptual, psychological, and physiological responses.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        My current work investigates audio-visual interactions, soundscapes, natural sounds, and greenery, with broader interests in environmental restorativeness, human health and well-being, and design visualization and auralization.
     design:
       columns: '1'
+
 
   # Featured Publications
   - block: collection
@@ -46,10 +89,11 @@ sections:
       view: article-grid
       columns: 2
 
-  # Recent Publications
+
+  # Publications
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications
       text: ''
       filters:
         folders:
@@ -57,4 +101,5 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
 ---
