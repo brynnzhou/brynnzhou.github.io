@@ -29,30 +29,32 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
-  # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    mode: dark
+    mode: light
     pack: "default"
-  
+
     colors:
       primary: "green"
       secondary: "gray"
       neutral: "zinc"
-  
-    colors_light: {}
-  
-    colors_dark:
-      primary: "#4BA454"
-  
+
+    colors_light:
+      primary: "#3F7D58"
+
+    colors_dark: {}
+
     surfaces:
-      background: "#0B0C0F"
-      foreground: "#F1F1F3"
+      background: "#FAFAF8"
+      foreground: "#202124"
+
       header:
-        background: "#0B0C0F"
-        foreground: "#F1F1F3"
+        background: "#FAFAF8"
+        foreground: "#202124"
+
       footer:
-        background: "#0B0C0F"
+        background: "#F4F4F1"
+        foreground: "#202124"
         foreground: "#F1F1F3"
 
   # ────────────────────────────────────────────────────────────────────────────
