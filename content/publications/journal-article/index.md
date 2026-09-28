@@ -1,15 +1,17 @@
 ---
-title: "An example journal article"
+title: "Exploring relationships between qualitative attributes of urban greenery and soundscape quality assessment: A case study in Singapore"
+
 authors:
-- me
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+  - me
+  - Puay Yok Tan
+  - Siu Kit Lau
+  - Xian Zhang
+  - Shuang Xin Long
+  - Xiaoping Chen
+  - Xiao Ping Song
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2026-06-15T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,79 +20,45 @@ publication_types: ["article-journal"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Journal of Source Themes"
-  volume: 1
-  issue: 1
+  name: "Journal of Environmental Management"
+  volume: 410
 
 peer_reviewed: true
-open_access: true
-license: CC-BY-4.0
+open_access: false
 
 # Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
 # Note: a Test of Time award years after publication uses an explicit `date` that differs from the page date.
-awards:
-  - name: "Test of Time Award"
-    level: winner
-    date: "2025"
-    note: "Awarded for sustained impact 10 years after publication."
-  - name: "Editor's Choice"
-    level: featured
 
-funding:
-  - funder: "National Science Foundation"
-    grant: "NSF-1234567"
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: Soundscape, defined as the acoustic environment as perceived or experienced by humans, has gained increasing attention due to concerns about the health impacts of urban noise. A key focus of recent audio–visual soundscape studies is the role of greenery in enhancing soundscape perception. Thus far, studies have primarily concentrated on the quantity of greenery, while much less attention has been given to its qualitative attributes such as species composition, spatial configuration, color, and aesthetic qualities. Moreover, existing work often relies on linear assumptions, potentially overlooking nonlinear relationships between environmental exposure and human responses. We addressed these knowledge gaps through two soundwalks in residential neighborhoods in Singapore involving 118 participants, with acoustic recordings and 360-degree photographs collected to characterize the acoustic and visual environments. Linear mixed-effects models (LMMs) and generalized additive mixed-effects models (GAMMs) were compared to examine relationships between visual landscape attributes and soundscape assessments. The results showed that GAMMs outperformed LMMs, indicating improved performance when nonlinear effects were considered. Landscape attributes, including wildness, visual depth, sky view index, and building view index, were found to be significantly associated with soundscape perception, with nonlinear relationships identified for wildness and visual depth. A turning point at 0.6 was observed in the relationship between wildness and soundscape quality, beyond which increases in wildness were associated with greater increases in soundscape quality. Sensitivity analyses confirmed the robustness of these findings. Overall, this study highlights the importance of moving beyond a sole focus on greenery quantity to consider its qualitative characteristics in soundscape research, thereby advancing understanding in this field.
 
 tags:
-- Source Themes
-featured: false
-
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+- Soundscape
+featured: true
 
 links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+  - type: doi
+    url: https://doi.org/10.1016/j.jenvman.2026.130034
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
+# image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  focal_point: ""
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+# projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+# slides: ""
 ---
 
 > [!NOTE]
