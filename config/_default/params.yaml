@@ -36,22 +36,24 @@ hugoblox:
     pack: "default"
   
     colors:
-      primary: "blue"
-      secondary: "slate"
-      neutral: "slate"
+      primary: "green"
+      secondary: "gray"
+      neutral: "zinc"
   
     colors_light: {}
-    colors_dark: {}
+  
+    colors_dark:
+      primary: "#4BA454"
   
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#0B0C0F"
+      foreground: "#F1F1F3"
       header:
-        background: ""
-        foreground: ""
+        background: "#0B0C0F"
+        foreground: "#F1F1F3"
       footer:
-        background: ""
-        foreground: ""
+        background: "#0B0C0F"
+        foreground: "#F1F1F3"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
