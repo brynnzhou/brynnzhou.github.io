@@ -27,49 +27,40 @@ sections:
       title: 'Education'
       subtitle: ''
       text: |-
-        <div style="margin-bottom: 2rem;">
-          <div style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem;">
-            PhD in Architecture
-          </div>
-          <div style="font-size: 1rem; opacity: 0.75; margin-bottom: 0.65rem;">
-            National University of Singapore · 2022–2026
-          </div>
-          <div style="font-size: 0.9rem; line-height: 1.6; opacity: 0.85;">
-            <em>Thesis: Effects of Natural Sounds and Greenery on Soundscape Experience: Dose-Response Relationships, Thresholds, and Exposure Characteristics</em><br>
-            Advisors: Prof. Tan Puay Yok and Prof. Lau Siu Kit
-          </div>
-        </div>
+        **PhD in Architecture**  
+        National University of Singapore, 2022–2026  
+        Thesis: *Effects of Natural Sounds and Greenery on Soundscape Experience: Dose-Response Relationships, Thresholds, and Exposure Characteristics*  
+        Advisors: Prof. Tan Puay Yok and Prof. Lau Siu Kit
 
-        <div style="margin-bottom: 2rem;">
-          <div style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem;">
-            Master of Landscape Architecture
-          </div>
-          <div style="font-size: 1rem; opacity: 0.75; margin-bottom: 0.65rem;">
-            National University of Singapore · 2019–2021
-          </div>
-          <div style="font-size: 0.9rem; line-height: 1.6; opacity: 0.85;">
-            <em>Dissertation: A Comparison of Photogrammetry Generated Point Clouds and 360 Degree Panoramic Photos for Semi-immersive Online Teaching of Landscape Architecture</em><br>
-            Advisor: Dr. Lin Shengwei Ervine
-          </div>
-        </div>
+        **Master of Landscape Architecture**  
+        National University of Singapore, 2019–2021  
+        Dissertation: *A Comparison of Photogrammetry Generated Point Clouds and 360 Degree Panoramic Photos for Semi-immersive Online Teaching of Landscape Architecture*  
+        Advisor: Dr. Lin Shengwei Ervine
 
-        <div>
-          <div style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem;">
-            Bachelor of Environmental Design
-          </div>
-          <div style="font-size: 1rem; opacity: 0.75;">
-            Tianjin Academy of Fine Arts · 2015–2019
-          </div>
-        </div>
+        **Bachelor of Environmental Design**  
+        Tianjin Academy of Fine Arts, 2015–2019
     design:
       columns: '1'
 
 
+  # Featured Publications
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+
+
   # Publications
   - block: collection
-    id: publications
     content:
-      title: 'Publications'
+      title: Publications
       text: ''
       filters:
         folders:
