@@ -7,60 +7,29 @@ type: landing
 
 sections:
 
-  # Biography
-  - block: resume-biography
+  # Biography + Research Interests + Education
+  - block: resume-biography-3
     content:
       username: me
       text: ''
       button:
         text: Download CV
         url: uploads/resume.pdf
+      headings:
+        about: ''
+        education: 'Education'
+        interests: 'Research Interests'
     design:
+      background:
+        gradient_mesh:
+          enable: false
+
+      name:
+        size: md
+
       avatar:
         size: medium
         shape: circle
-
-
-  # Research Interests + Education
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-        <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: start;">
-
-        <div>
-
-        ## Research Interests
-
-        - Audio-Visual Interactions
-        - Soundscape
-        - Psychophysiological Responses to Urban Environments
-        - Human–Environment Interactions and Well-being
-
-        </div>
-
-        <div>
-
-        ## Education
-
-        🎓 **PhD in Architecture**  
-        National University of Singapore  
-        2022–2026
-
-        🎓 **Master of Landscape Architecture**  
-        National University of Singapore  
-        2019–2021
-
-        🎓 **Bachelor of Environmental Design**  
-        Tianjin Academy of Fine Arts  
-        2015–2019
-
-        </div>
-
-        </div>
-    design:
-      columns: '1'
 
 
   # Research
