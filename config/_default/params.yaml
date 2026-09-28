@@ -37,18 +37,6 @@ hugoblox:
 
     colors_dark: {}
 
-    surfaces:
-      background: "#FAFAF8"
-      foreground: "#171717"
-
-      header:
-        background: "#FAFAF8"
-        foreground: "#171717"
-
-      footer:
-        background: "#F4F4F1"
-        foreground: "#333333"
-
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
   # ────────────────────────────────────────────────────────────────────────────
