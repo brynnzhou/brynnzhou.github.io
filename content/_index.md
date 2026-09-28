@@ -7,42 +7,34 @@ type: landing
 
 sections:
 
-  # Biography + Research Interests + Education
-  - block: resume-biography-3
+  # Biography
+  - block: resume-biography
     content:
       username: me
       text: ''
       button:
         text: Download CV
         url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: 'Education'
-        interests: 'Research Interests'
     design:
-      background:
-        gradient_mesh:
-          enable: false
-
-      name:
-        size: md
-
       avatar:
         size: medium
         shape: circle
 
 
-  # Research
+  # Education
   - block: markdown
     content:
-      title: 'Research'
+      title: 'Education'
       subtitle: ''
       text: |-
-        My research focuses on human–environment interactions, particularly how visual and acoustic characteristics of urban environments influence perceptual, psychological, and physiological responses.
+        **PhD in Architecture**  
+        National University of Singapore, 2022–2026
 
-        I am particularly interested in audio-visual interactions, soundscapes, natural sounds, and greenery, as well as their implications for environmental restorativeness, human health, and well-being.
+        **Master of Landscape Architecture**  
+        National University of Singapore, 2019–2021
 
-        My broader research interests include design visualization and auralization, environmental perception, and evidence-based approaches to designing healthier and more restorative urban environments.
+        **Bachelor of Environmental Design**  
+        Tianjin Academy of Fine Arts, 2015–2019
     design:
       columns: '1'
 
