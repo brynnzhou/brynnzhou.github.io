@@ -44,18 +44,6 @@ hugoblox:
       primary: "#3F7D58"
   
     colors_dark: {}
-  
-    surfaces:
-      background: "#FFFFFF"
-      foreground: "#111111"
-  
-      header:
-        background: "#FFFFFF"
-        foreground: "#111111"
-  
-      footer:
-        background: "#F7F7F7"
-        foreground: "#27272A"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
