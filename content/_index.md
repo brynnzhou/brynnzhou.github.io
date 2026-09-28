@@ -40,7 +40,9 @@ sections:
       text: |-
         My research focuses on human–environment interactions, particularly how visual and acoustic characteristics of urban environments influence perceptual, psychological, and physiological responses.
 
-        My current work investigates audio-visual interactions, soundscapes, natural sounds, and greenery, with broader interests in environmental restorativeness, human health and well-being, and design visualization and auralization.
+        I am particularly interested in audio-visual interactions, soundscapes, natural sounds, and greenery, as well as their implications for environmental restorativeness, human health, and well-being.
+
+        My broader research interests include design visualization and auralization, environmental perception, and evidence-based approaches to designing healthier and more restorative urban environments.
     design:
       columns: '1'
 
