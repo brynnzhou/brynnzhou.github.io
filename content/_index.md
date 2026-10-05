@@ -98,6 +98,12 @@ sections:
 
 <style>
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+}
+
+#about,
+#education,
+#publications {
+  scroll-margin-top: 80px;
 }
 </style>
