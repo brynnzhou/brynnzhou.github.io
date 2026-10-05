@@ -286,13 +286,25 @@ sections:
       title: 'Skills'
       subtitle: ''
       text: |-
-        **Programming & Statistics:** R, Python, SPSS
+        <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
 
-        **Acoustics & Audio:** Simcenter Testlab, iZotope RX, Adobe Audition, Audacity
+          <div style="margin-bottom: 0.8rem;">
+            <strong>Programming & Statistics:</strong> R, Python, SPSS
+          </div>
 
-        **Spatial & VR:** ArcGIS Pro, QGIS, CloudCompare, RealityCapture, Unity, Cinema 4D
+          <div style="margin-bottom: 0.8rem;">
+            <strong>Acoustics & Audio:</strong> Simcenter Testlab, iZotope RX, Adobe Audition, Audacity
+          </div>
 
-        **Design & Modelling:** Rhinoceros 3D, Grasshopper, 3ds Max, SketchUp, Adobe Creative Suite, Lumion
+          <div style="margin-bottom: 0.8rem;">
+            <strong>Spatial & VR:</strong> ArcGIS Pro, QGIS, CloudCompare, RealityCapture, Unity, Cinema 4D
+          </div>
+
+          <div>
+            <strong>Design & Modelling:</strong> Rhinoceros 3D, Grasshopper, 3ds Max, SketchUp, Adobe Creative Suite, Lumion
+          </div>
+
+        </div>
 
     design:
       columns: '1'
