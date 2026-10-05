@@ -138,7 +138,7 @@ sections:
           </div>
 
           <img
-            src="/images/publications/jem-2026.jpg"
+            src="/uploads/jem-2026.jpg"
             alt="Exploring relationships between qualitative attributes of urban greenery and soundscape quality assessment"
             style="width: 120px; height: 120px; object-fit: cover; border-radius: 12px; flex-shrink: 0;"
           >
@@ -155,7 +155,7 @@ sections:
           </div>
 
           <img
-            src="/images/publications/buildenv-2026.jpg"
+            src="/uploads/buildenv-2026.jpg"
             alt="Monitoring neighborhood-scale urban ecosystem services in high-density housing developments using sensor-based multi-source data"
             style="width: 120px; height: 120px; object-fit: cover; border-radius: 12px; flex-shrink: 0;"
           >
