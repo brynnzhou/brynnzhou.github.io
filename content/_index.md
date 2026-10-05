@@ -129,7 +129,10 @@ sections:
       subtitle: ''
       text: |-
         <div style="margin-bottom: 2.8rem;">
-          <img src="/uploads/jem-2026.jpg" alt="Publication image" style="width: 100%; height: auto; display: block; margin: 0 0 1.2rem 0; border-radius: 10px;">
+
+          <div style="width: 100%; height: 300px; box-sizing: border-box; background: rgba(24, 24, 27, 0.05); border: 1px solid rgba(24, 24, 27, 0.08); border-radius: 18px; overflow: hidden; display: flex; justify-content: center; align-items: center; margin-bottom: 1.2rem;">
+            <img src="/uploads/jem-2026.jpg" alt="Publication image" style="width: 100%; height: 100%; object-fit: contain; display: block;">
+          </div>
 
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
             <strong>Zhou, Z.</strong>, Tan, P.Y., Lau, S.K., Zhang, X., Long, S.X., Chen, X., and Song, X.P. (2026).
@@ -138,10 +141,15 @@ sections:
             <br>
             <a href="https://doi.org/10.1016/j.jenvman.2026.130034" target="_blank">https://doi.org/10.1016/j.jenvman.2026.130034</a>
           </div>
+
         </div>
 
+
         <div style="margin-bottom: 2.8rem;">
-          <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="width: 100%; height: auto; display: block; margin: 0 0 1.2rem 0; border-radius: 10px;">
+
+          <div style="width: 100%; height: 300px; box-sizing: border-box; background: rgba(24, 24, 27, 0.05); border: 1px solid rgba(24, 24, 27, 0.08); border-radius: 18px; overflow: hidden; display: flex; justify-content: center; align-items: center; margin-bottom: 1.2rem;">
+            <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="max-width: 90%; max-height: 90%; width: auto; height: auto; object-fit: contain; display: block;">
+          </div>
 
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
             Zhang, X., <strong>Zhou, Z.</strong>, Long, S.X., Chen, T., Chen, X., Song, X.P., Chong, K.Y., Lau, S.K., Yuan, C., and Tan, P.Y. (2026).
@@ -150,7 +158,9 @@ sections:
             <br>
             <a href="https://doi.org/10.1016/j.buildenv.2026.115276" target="_blank">https://doi.org/10.1016/j.buildenv.2026.115276</a>
           </div>
+
         </div>
+
 
         <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
           Zhu, Y., Wang, J., Zhang, Y., Hwang, Y.H., Chi, D., Qiu, Y., Chen, X., Feng, C., <strong>Zhou, Z.</strong>, Huang, J., Burlando, P., and Tan, P.Y.
