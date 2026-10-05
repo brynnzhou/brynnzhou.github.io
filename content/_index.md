@@ -34,15 +34,15 @@ sections:
             PhD in Architecture
           </div>
 
-          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+          <div style="font-size: 1.05rem; color: #3F3F46; margin-bottom: 0.65rem;">
             National University of Singapore · 2022–2026
           </div>
 
-          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6; margin-bottom: 0.25rem;">
+          <div style="font-size: 1rem; color: #52525B; line-height: 1.6; margin-bottom: 0.25rem;">
             Thesis: <em>Effects of Natural Sounds and Greenery on Soundscape Experience: Dose-Response Relationships, Thresholds, and Exposure Characteristics</em>
           </div>
 
-          <div style="font-size: 0.92rem; color: #3F3F46;">
+          <div style="font-size: 1rem; color: #3F3F46;">
             Advisors: Prof. Tan Puay Yok and Prof. Lau Siu Kit
           </div>
         </div>
@@ -53,15 +53,15 @@ sections:
             Master of Landscape Architecture
           </div>
 
-          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+          <div style="font-size: 1.05rem; color: #3F3F46; margin-bottom: 0.65rem;">
             National University of Singapore · 2019–2021
           </div>
 
-          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6; margin-bottom: 0.25rem;">
+          <div style="font-size: 1rem; color: #52525B; line-height: 1.6; margin-bottom: 0.25rem;">
             Dissertation: <em>A Comparison of Photogrammetry Generated Point Clouds and 360 Degree Panoramic Photos for Semi-immersive Online Teaching of Landscape Architecture</em>
           </div>
 
-          <div style="font-size: 0.92rem; color: #3F3F46;">
+          <div style="font-size: 1rem; color: #3F3F46;">
             Advisor: Dr. Lin Shengwei Ervine
           </div>
         </div>
@@ -72,7 +72,7 @@ sections:
             Bachelor of Environmental Design
           </div>
 
-          <div style="font-size: 1rem; color: #3F3F46;">
+          <div style="font-size: 1.05rem; color: #3F3F46;">
             Tianjin Academy of Fine Arts · 2015–2019
           </div>
         </div>
@@ -93,11 +93,11 @@ sections:
             Teaching Assistant
           </div>
 
-          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+          <div style="font-size: 1.05rem; color: #3F3F46; margin-bottom: 0.65rem;">
             National University of Singapore · August 2025–December 2025
           </div>
 
-          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6;">
+          <div style="font-size: 1rem; color: #52525B; line-height: 1.6;">
             LAD1003 Introduction to Landscape Architecture
           </div>
         </div>
@@ -108,11 +108,11 @@ sections:
             Teaching Assistant
           </div>
 
-          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+          <div style="font-size: 1.05rem; color: #3F3F46; margin-bottom: 0.65rem;">
             National University of Singapore · October 2024–December 2024
           </div>
 
-          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6;">
+          <div style="font-size: 1rem; color: #52525B; line-height: 1.6;">
             LA4702 MLA Optional Studio
           </div>
         </div>
@@ -128,7 +128,7 @@ sections:
       title: 'Publications'
       subtitle: ''
       text: |-
-        <div style="margin-bottom: 2.2rem; font-size: 0.95rem; color: #3F3F46; line-height: 1.65;">
+        <div style="margin-bottom: 2.2rem; font-size: 1rem; color: #3F3F46; line-height: 1.65;">
           <strong>Zhou, Z.</strong>, Tan, P.Y., Lau, S.K., Zhang, X., Long, S.X., Chen, X., and Song, X.P. (2026).
           “Exploring relationships between qualitative attributes of urban greenery and soundscape quality assessment: A case study in Singapore.”
           <em>Journal of Environmental Management</em>, 410, 130034.
@@ -136,7 +136,7 @@ sections:
           <a href="https://doi.org/10.1016/j.jenvman.2026.130034" target="_blank">https://doi.org/10.1016/j.jenvman.2026.130034</a>
         </div>
 
-        <div style="margin-bottom: 2.2rem; font-size: 0.95rem; color: #3F3F46; line-height: 1.65;">
+        <div style="margin-bottom: 2.2rem; font-size: 1rem; color: #3F3F46; line-height: 1.65;">
           Zhang, X., <strong>Zhou, Z.</strong>, Long, S.X., Chen, T., Chen, X., Song, X.P., Chong, K.Y., Lau, S.K., Yuan, C., and Tan, P.Y. (2026).
           “Monitoring neighborhood-scale urban ecosystem services in high-density housing developments using sensor-based multi-source data.”
           <em>Building and Environment</em>, 305, 115276.
@@ -144,7 +144,7 @@ sections:
           <a href="https://doi.org/10.1016/j.buildenv.2026.115276" target="_blank">https://doi.org/10.1016/j.buildenv.2026.115276</a>
         </div>
 
-        <div style="font-size: 0.95rem; color: #3F3F46; line-height: 1.65;">
+        <div style="font-size: 1rem; color: #3F3F46; line-height: 1.65;">
           Zhu, Y., Wang, J., Zhang, Y., Hwang, Y.H., Chi, D., Qiu, Y., Chen, X., Feng, C., <strong>Zhou, Z.</strong>, Huang, J., Burlando, P., and Tan, P.Y.
           “Research-informed tools as a science-practice interface for mediating multifunctional design: reflections from a collaborative design research studio.”
           <em>Socio-Ecological Practice Research</em>, in press.
@@ -182,5 +182,13 @@ html {
 #publications,
 #contact {
   scroll-margin-top: 80px;
+}
+
+/* Make the biography paragraph smaller */
+#about .article-style,
+#about .bio-text,
+#about p {
+  font-size: 1.05rem !important;
+  line-height: 1.7 !important;
 }
 </style>
