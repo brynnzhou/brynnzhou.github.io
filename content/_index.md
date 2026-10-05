@@ -146,11 +146,11 @@ sections:
 
 
         <div style="margin-bottom: 2.8rem;">
-
+        
           <div style="width: 100%; height: 300px; box-sizing: border-box; background: rgba(24, 24, 27, 0.05); border: 1px solid rgba(24, 24, 27, 0.08); border-radius: 18px; overflow: hidden; display: flex; justify-content: center; align-items: center; margin-bottom: 1.2rem;">
-            <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="max-width: 90%; max-height: 90%; width: auto; height: auto; object-fit: contain; display: block;">
+            <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="width: 80%; height: 100%; object-fit: cover; object-position: center; display: block;">
           </div>
-
+        
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
             Zhang, X., <strong>Zhou, Z.</strong>, Long, S.X., Chen, T., Chen, X., Song, X.P., Chong, K.Y., Lau, S.K., Yuan, C., and Tan, P.Y. (2026).
             “Monitoring neighborhood-scale urban ecosystem services in high-density housing developments using sensor-based multi-source data.”
@@ -158,7 +158,7 @@ sections:
             <br>
             <a href="https://doi.org/10.1016/j.buildenv.2026.115276" target="_blank">https://doi.org/10.1016/j.buildenv.2026.115276</a>
           </div>
-
+        
         </div>
 
 
