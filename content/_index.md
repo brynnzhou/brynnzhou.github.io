@@ -129,7 +129,7 @@ sections:
       subtitle: ''
       text: |-
         <div style="margin-bottom: 2.8rem;">
-          <img src="/uploads/jem-2026.jpg" alt="Publication image" style="width: 70%; height: auto; display: block; margin: 0 auto 1.2rem auto; border-radius: 10px;">
+          <img src="/uploads/jem-2026.jpg" alt="Publication image" style="width: 100%; height: auto; display: block; margin: 0 0 1.2rem 0; border-radius: 10px;">
 
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
             <strong>Zhou, Z.</strong>, Tan, P.Y., Lau, S.K., Zhang, X., Long, S.X., Chen, X., and Song, X.P. (2026).
@@ -141,7 +141,7 @@ sections:
         </div>
 
         <div style="margin-bottom: 2.8rem;">
-          <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="width: 70%; height: auto; display: block; margin: 0 auto 1.2rem auto; border-radius: 10px;">
+          <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="width: 100%; height: auto; display: block; margin: 0 0 1.2rem 0; border-radius: 10px;">
 
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
             Zhang, X., <strong>Zhou, Z.</strong>, Long, S.X., Chen, T., Chen, X., Song, X.P., Chong, K.Y., Lau, S.K., Yuan, C., and Tan, P.Y. (2026).
