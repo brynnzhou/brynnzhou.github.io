@@ -195,7 +195,7 @@ html {
 #about .article-style,
 #about .bio-text,
 #about p {
-  font-size: 1.05rem !important;
+  font-size: 1rem !important;
   line-height: 1.65 !important;
 }
 
