@@ -94,6 +94,31 @@ sections:
     design:
       view: citation
 
+
+  # Teaching
+  - block: markdown
+    id: teaching
+    content:
+      title: 'Teaching'
+      subtitle: ''
+      text: |-
+        <div style="margin-bottom: 2.2rem;">
+          <div style="font-size: 1.20rem; font-weight: 650; color: #18181B; margin-bottom: 0.3rem;">
+            Teaching Assistant
+          </div>
+
+          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+            National University of Singapore · 2022–2026
+          </div>
+
+          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6;">
+            Course Name
+          </div>
+        </div>
+
+    design:
+      columns: '1'
+
 ---
 
 <style>
@@ -103,7 +128,8 @@ html {
 
 #about,
 #experience,
-#publications {
+#publications,
+#teaching {
   scroll-margin-top: 80px;
 }
 </style>
