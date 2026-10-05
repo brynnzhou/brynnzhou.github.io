@@ -172,6 +172,60 @@ sections:
       columns: '1'
 
 
+  # Skills
+  - block: markdown
+    id: skills
+    content:
+      title: 'Skills'
+      subtitle: ''
+      text: |-
+        <div style="margin-bottom: 1.5rem;">
+          <div style="font-size: 1.15rem; font-weight: 600; color: #18181B; line-height: 1.4; margin-bottom: 0.3rem;">
+            Programming & Statistics
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            R · Python · SPSS
+          </div>
+        </div>
+
+
+        <div style="margin-bottom: 1.5rem;">
+          <div style="font-size: 1.15rem; font-weight: 600; color: #18181B; line-height: 1.4; margin-bottom: 0.3rem;">
+            Acoustics & Audio
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            Simcenter Testlab · iZotope RX · Adobe Audition · Audacity
+          </div>
+        </div>
+
+
+        <div style="margin-bottom: 1.5rem;">
+          <div style="font-size: 1.15rem; font-weight: 600; color: #18181B; line-height: 1.4; margin-bottom: 0.3rem;">
+            Spatial & VR
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            ArcGIS Pro · QGIS · CloudCompare · RealityCapture · Unity · Cinema 4D
+          </div>
+        </div>
+
+
+        <div>
+          <div style="font-size: 1.15rem; font-weight: 600; color: #18181B; line-height: 1.4; margin-bottom: 0.3rem;">
+            Design & Modelling
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            Rhinoceros 3D · Grasshopper · 3ds Max · SketchUp · Adobe Creative Suite · Lumion
+          </div>
+        </div>
+
+    design:
+      columns: '1'
+
+
   # Contact
   - block: markdown
     id: contact
@@ -198,6 +252,7 @@ html {
 #experience,
 #teaching,
 #publications,
+#skills,
 #contact {
   scroll-margin-top: 80px;
 
@@ -224,6 +279,8 @@ html {
 #teaching h2,
 #publications h1,
 #publications h2,
+#skills h1,
+#skills h2,
 #contact h1,
 #contact h2 {
   line-height: 1.25 !important;
