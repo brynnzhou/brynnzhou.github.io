@@ -128,21 +128,39 @@ sections:
       title: 'Publications'
       subtitle: ''
       text: |-
-        <div style="margin-bottom: 2.2rem; font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
-          <strong>Zhou, Z.</strong>, Tan, P.Y., Lau, S.K., Zhang, X., Long, S.X., Chen, X., and Song, X.P. (2026).
-          “Exploring relationships between qualitative attributes of urban greenery and soundscape quality assessment: A case study in Singapore.”
-          <em>Journal of Environmental Management</em>, 410, 130034.
-          <br>
-          <a href="https://doi.org/10.1016/j.jenvman.2026.130034" target="_blank">https://doi.org/10.1016/j.jenvman.2026.130034</a>
+        <div style="display: flex; align-items: center; gap: 1.6rem; margin-bottom: 2.2rem;">
+          <div style="flex: 1; min-width: 0; font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
+            <strong>Zhou, Z.</strong>, Tan, P.Y., Lau, S.K., Zhang, X., Long, S.X., Chen, X., and Song, X.P. (2026).
+            “Exploring relationships between qualitative attributes of urban greenery and soundscape quality assessment: A case study in Singapore.”
+            <em>Journal of Environmental Management</em>, 410, 130034.
+            <br>
+            <a href="https://doi.org/10.1016/j.jenvman.2026.130034" target="_blank">https://doi.org/10.1016/j.jenvman.2026.130034</a>
+          </div>
+
+          <img
+            src="/images/publications/jem-2026.jpg"
+            alt="Exploring relationships between qualitative attributes of urban greenery and soundscape quality assessment"
+            style="width: 120px; height: 120px; object-fit: cover; border-radius: 12px; flex-shrink: 0;"
+          >
         </div>
 
-        <div style="margin-bottom: 2.2rem; font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
-          Zhang, X., <strong>Zhou, Z.</strong>, Long, S.X., Chen, T., Chen, X., Song, X.P., Chong, K.Y., Lau, S.K., Yuan, C., and Tan, P.Y. (2026).
-          “Monitoring neighborhood-scale urban ecosystem services in high-density housing developments using sensor-based multi-source data.”
-          <em>Building and Environment</em>, 305, 115276.
-          <br>
-          <a href="https://doi.org/10.1016/j.buildenv.2026.115276" target="_blank">https://doi.org/10.1016/j.buildenv.2026.115276</a>
+
+        <div style="display: flex; align-items: center; gap: 1.6rem; margin-bottom: 2.2rem;">
+          <div style="flex: 1; min-width: 0; font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
+            Zhang, X., <strong>Zhou, Z.</strong>, Long, S.X., Chen, T., Chen, X., Song, X.P., Chong, K.Y., Lau, S.K., Yuan, C., and Tan, P.Y. (2026).
+            “Monitoring neighborhood-scale urban ecosystem services in high-density housing developments using sensor-based multi-source data.”
+            <em>Building and Environment</em>, 305, 115276.
+            <br>
+            <a href="https://doi.org/10.1016/j.buildenv.2026.115276" target="_blank">https://doi.org/10.1016/j.buildenv.2026.115276</a>
+          </div>
+
+          <img
+            src="/images/publications/buildenv-2026.jpg"
+            alt="Monitoring neighborhood-scale urban ecosystem services in high-density housing developments using sensor-based multi-source data"
+            style="width: 120px; height: 120px; object-fit: cover; border-radius: 12px; flex-shrink: 0;"
+          >
         </div>
+
 
         <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
           Zhu, Y., Wang, J., Zhang, Y., Hwang, Y.H., Chi, D., Qiu, Y., Chen, X., Feng, C., <strong>Zhou, Z.</strong>, Huang, J., Burlando, P., and Tan, P.Y.
@@ -195,7 +213,7 @@ html {
 #about .article-style,
 #about .bio-text,
 #about p {
-  font-size: 1.05rem !important;
+  font-size: 1rem !important;
   line-height: 1.65 !important;
 }
 
