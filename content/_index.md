@@ -143,7 +143,8 @@ sections:
       subtitle: ''
       text: |-
         <div style="font-size: 1rem; color: #3F3F46; line-height: 1.8;">
-          <strong>Email:</strong> zuyuan.zhou@u.nus.edu
+          <strong>Email:</strong> zuyuan.zhou@u.nus.edu<br>
+          <strong>Phone:</strong> +65 9082 7564
         </div>
 
     design:
