@@ -22,11 +22,11 @@ sections:
         shape: circle
 
 
-  # Education
+  # Experience
   - block: markdown
-    id: education
+    id: experience
     content:
-      title: 'Education'
+      title: 'Experience'
       subtitle: ''
       text: |-
         <div style="margin-bottom: 2.2rem;">
@@ -102,7 +102,7 @@ html {
 }
 
 #about,
-#education,
+#experience,
 #publications {
   scroll-margin-top: 80px;
 }
