@@ -22,20 +22,20 @@ sections:
         shape: circle
 
 
-  # Experience
+  # Education
   - block: markdown
-    id: experience
+    id: education
     content:
-      title: 'Experience'
+      title: 'Education'
       subtitle: ''
       text: |-
         <div style="margin-bottom: 2.2rem;">
           <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
-            PhD in Architecture
+            PhD Candidate in Architecture (Oral Examination Passed)
           </div>
 
           <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
-            National University of Singapore · 2022–2026
+            National University of Singapore · August 2022–Present
           </div>
 
           <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65; margin-bottom: 0.25rem;">
@@ -43,7 +43,7 @@ sections:
           </div>
 
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
-            Advisors: Prof. Tan Puay Yok and Prof. Lau Siu Kit
+            Thesis advisors: Prof. Tan Puay Yok and Prof. Lau Siu Kit
           </div>
         </div>
 
@@ -54,7 +54,7 @@ sections:
           </div>
 
           <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
-            National University of Singapore · 2019–2021
+            National University of Singapore · August 2019–July 2021
           </div>
 
           <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65; margin-bottom: 0.25rem;">
@@ -62,7 +62,7 @@ sections:
           </div>
 
           <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
-            Advisor: Dr. Lin Shengwei Ervine
+            Dissertation advisor: Dr. Lin Shengwei Ervine
           </div>
         </div>
 
@@ -73,7 +73,7 @@ sections:
           </div>
 
           <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5;">
-            Tianjin Academy of Fine Arts · 2015–2019
+            Tianjin Academy of Fine Arts · August 2015–July 2019
           </div>
         </div>
 
@@ -81,39 +81,81 @@ sections:
       columns: '1'
 
 
-  # Teaching
+  # Experience
   - block: markdown
-    id: teaching
+    id: experience
     content:
-      title: 'Teaching'
+      title: 'Experience'
       subtitle: ''
       text: |-
         <div style="margin-bottom: 2.2rem;">
           <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
-            Teaching Assistant
+            PhD Researcher
           </div>
 
           <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
-            National University of Singapore · August 2025–December 2025
+            National University of Singapore · August 2025–March 2026
           </div>
 
-          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
-            LAD1003 Introduction to Landscape Architecture
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65; margin-bottom: 0.25rem;">
+            Research project: <em>An Integrated Multimodal Quantification Method for Designing Landscapes for Well-being</em>
+          </div>
+
+          <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
+            Contributed to the soundscape component.
+          </div>
+        </div>
+
+
+        <div style="margin-bottom: 2.2rem;">
+          <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
+            Research Associate
+          </div>
+
+          <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
+            National University of Singapore · June 2022–December 2024
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65; margin-bottom: 0.25rem;">
+            Research project: <em>Assessment of Urban Ecosystem Services in Residential Neighborhoods in Singapore</em>
+          </div>
+
+          <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
+            Led the noise abatement component, including environmental data collection, processing, and analysis.
+          </div>
+        </div>
+
+
+        <div style="margin-bottom: 2.2rem;">
+          <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
+            Graduate Landscape Architect
+          </div>
+
+          <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
+            Ramboll Studio Dreiseitl Singapore · September 2021–May 2022
+          </div>
+
+          <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
+            Contributed to the Chengdu Unicorn Island project.
           </div>
         </div>
 
 
         <div>
           <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
-            Teaching Assistant
+            Research Assistant
           </div>
 
           <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
-            National University of Singapore · October 2024–December 2024
+            National University of Singapore · December 2020–January 2021
           </div>
 
-          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
-            LA4702 MLA Optional Studio
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65; margin-bottom: 0.25rem;">
+            Research project: <em>Research and Design for the Redevelopment of PLAB</em>
+          </div>
+
+          <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
+            Modeled site landforms and performed quantitative earthwork analysis.
           </div>
         </div>
 
@@ -171,6 +213,72 @@ sections:
     design:
       columns: '1'
 
+
+  # Conference
+  - block: markdown
+    id: conference
+    content:
+      title: 'Conference'
+      subtitle: ''
+      text: |-
+        <div>
+          <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
+            The Sixth Joint Meeting of the Acoustical Society of America and the Acoustical Society of Japan
+          </div>
+
+          <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
+            Honolulu, USA · December 2025
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            Oral presentation: <em>“Soundscape Affects Perceived Visual Landscape Quality.”</em>
+          </div>
+        </div>
+
+    design:
+      columns: '1'
+
+
+  # Teaching
+  - block: markdown
+    id: teaching
+    content:
+      title: 'Teaching'
+      subtitle: ''
+      text: |-
+        <div style="margin-bottom: 2.2rem;">
+          <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
+            Teaching Assistant
+          </div>
+
+          <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
+            National University of Singapore · August 2025–December 2025
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            LAD1003 Introduction to Landscape Architecture
+          </div>
+        </div>
+
+
+        <div>
+          <div style="font-size: 1.25rem; font-weight: 600; color: #18181B; line-height: 1.35; margin-bottom: 0.3rem;">
+            Teaching Assistant
+          </div>
+
+          <div style="font-size: 1.08rem; color: #3F3F46; line-height: 1.5; margin-bottom: 0.65rem;">
+            National University of Singapore · October 2024–December 2024
+          </div>
+
+          <div style="font-size: 1.05rem; color: #52525B; line-height: 1.65;">
+            LA4702 MLA Optional Studio
+          </div>
+        </div>
+
+    design:
+      columns: '1'
+
+
   # Skills
   - block: markdown
     id: skills
@@ -188,6 +296,7 @@ sections:
 
     design:
       columns: '1'
+
 
   # Contact
   - block: markdown
@@ -212,9 +321,12 @@ html {
 }
 
 #about,
+#education,
 #experience,
-#teaching,
 #publications,
+#conference,
+#teaching,
+#skills,
 #contact {
   scroll-margin-top: 80px;
 
@@ -235,12 +347,18 @@ html {
 }
 
 /* Keep section headings visually consistent */
+#education h1,
+#education h2,
 #experience h1,
 #experience h2,
-#teaching h1,
-#teaching h2,
 #publications h1,
 #publications h2,
+#conference h1,
+#conference h2,
+#teaching h1,
+#teaching h2,
+#skills h1,
+#skills h2,
 #contact h1,
 #contact h2 {
   line-height: 1.25 !important;
