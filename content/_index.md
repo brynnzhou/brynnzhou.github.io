@@ -136,7 +136,7 @@ sections:
             <br>
             <a href="https://doi.org/10.1016/j.jenvman.2026.130034" target="_blank">https://doi.org/10.1016/j.jenvman.2026.130034</a>
           </div>
-          <img src="/jem-2026.jpg" alt="Publication image" style="width: 95px; height: 95px; object-fit: cover; border-radius: 10px; flex-shrink: 0;">
+          <img src="/uploads/jem-2026.jpg" alt="Publication image" style="width: 95px; height: 95px; object-fit: cover; border-radius: 10px; flex-shrink: 0;">
         </div>
 
         <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2.2rem;">
@@ -147,7 +147,7 @@ sections:
             <br>
             <a href="https://doi.org/10.1016/j.buildenv.2026.115276" target="_blank">https://doi.org/10.1016/j.buildenv.2026.115276</a>
           </div>
-          <img src="/buildenv-2026.jpg" alt="Publication image" style="width: 95px; height: 95px; object-fit: cover; border-radius: 10px; flex-shrink: 0;">
+          <img src="/uploads/buildenv-2026.jpg" alt="Publication image" style="width: 95px; height: 95px; object-fit: cover; border-radius: 10px; flex-shrink: 0;">
         </div>
 
         <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
