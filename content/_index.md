@@ -205,13 +205,15 @@ html {
 }
 
 /* Subtle translucent outer frame */
-body {
-  margin: 8px !important;
-  width: calc(100% - 16px);
-  min-height: calc(100vh - 16px);
-  border: 1px solid rgba(24, 24, 27, 0.08);
+body::before {
+  content: "";
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+  border: 1px solid rgba(24, 24, 27, 0.12);
   border-radius: 16px;
-  box-sizing: border-box;
-  overflow-x: hidden;
+  pointer-events: none;
+  z-index: 9999;
 }
-</style>
