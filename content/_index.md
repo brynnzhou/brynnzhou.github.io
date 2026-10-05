@@ -203,4 +203,15 @@ html {
 #contact h2 {
   line-height: 1.25 !important;
 }
+
+/* Subtle translucent outer frame */
+body {
+  margin: 8px !important;
+  width: calc(100% - 16px);
+  min-height: calc(100vh - 16px);
+  border: 1px solid rgba(24, 24, 27, 0.08);
+  border-radius: 16px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 </style>
