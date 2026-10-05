@@ -95,3 +95,9 @@ sections:
       view: citation
 
 ---
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
