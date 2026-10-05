@@ -182,6 +182,13 @@ html {
 #publications,
 #contact {
   scroll-margin-top: 80px;
+
+  /* Subtle translucent section frame */
+  border: 1px solid rgba(24, 24, 27, 0.10);
+  border-radius: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  overflow: hidden;
 }
 
 /* About biography */
@@ -203,17 +210,4 @@ html {
 #contact h2 {
   line-height: 1.25 !important;
 }
-
-/* Subtle translucent outer frame */
-body::before {
-  content: "";
-  position: fixed;
-  top: 8px;
-  right: 8px;
-  bottom: 8px;
-  left: 8px;
-  border: 1px solid rgba(24, 24, 27, 0.12);
-  border-radius: 16px;
-  pointer-events: none;
-  z-index: 9999;
-}
+</style>
