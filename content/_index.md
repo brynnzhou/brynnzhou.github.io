@@ -81,6 +81,46 @@ sections:
       columns: '1'
 
 
+  # Teaching
+  - block: markdown
+    id: teaching
+    content:
+      title: 'Teaching'
+      subtitle: ''
+      text: |-
+        <div style="margin-bottom: 2.2rem;">
+          <div style="font-size: 1.20rem; font-weight: 650; color: #18181B; margin-bottom: 0.3rem;">
+            Teaching Assistant
+          </div>
+
+          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+            National University of Singapore · August 2025–December 2025
+          </div>
+
+          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6;">
+            LAD1003 Introduction to Landscape Architecture
+          </div>
+        </div>
+
+
+        <div>
+          <div style="font-size: 1.20rem; font-weight: 650; color: #18181B; margin-bottom: 0.3rem;">
+            Teaching Assistant
+          </div>
+
+          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
+            National University of Singapore · October 2024–December 2024
+          </div>
+
+          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6;">
+            LA4702 MLA Optional Studio
+          </div>
+        </div>
+
+    design:
+      columns: '1'
+
+
   # Publications
   - block: collection
     id: publications
@@ -95,25 +135,15 @@ sections:
       view: citation
 
 
-  # Teaching
+  # Contact
   - block: markdown
-    id: teaching
+    id: contact
     content:
-      title: 'Teaching'
+      title: 'Contact'
       subtitle: ''
       text: |-
-        <div style="margin-bottom: 2.2rem;">
-          <div style="font-size: 1.20rem; font-weight: 650; color: #18181B; margin-bottom: 0.3rem;">
-            Teaching Assistant
-          </div>
-
-          <div style="font-size: 1rem; color: #3F3F46; margin-bottom: 0.65rem;">
-            National University of Singapore · 2022–2026
-          </div>
-
-          <div style="font-size: 0.92rem; color: #52525B; line-height: 1.6;">
-            Course Name
-          </div>
+        <div style="font-size: 1rem; color: #3F3F46; line-height: 1.8;">
+          <strong>Email:</strong> zuyuan.zhou@u.nus.edu
         </div>
 
     design:
@@ -128,8 +158,9 @@ html {
 
 #about,
 #experience,
+#teaching,
 #publications,
-#teaching {
+#contact {
   scroll-margin-top: 80px;
 }
 </style>
