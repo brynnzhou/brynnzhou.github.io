@@ -171,6 +171,23 @@ sections:
     design:
       columns: '1'
 
+  # Skills
+  - block: markdown
+    id: skills
+    content:
+      title: 'Skills'
+      subtitle: ''
+      text: |-
+        **Programming & Statistics:** R, Python, SPSS
+
+        **Acoustics & Audio:** Simcenter Testlab, iZotope RX, Adobe Audition, Audacity
+
+        **Spatial & VR:** ArcGIS Pro, QGIS, CloudCompare, RealityCapture, Unity, Cinema 4D
+
+        **Design & Modelling:** Rhinoceros 3D, Grasshopper, 3ds Max, SketchUp, Adobe Creative Suite, Lumion
+
+    design:
+      columns: '1'
 
   # Contact
   - block: markdown
