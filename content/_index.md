@@ -219,9 +219,11 @@ sections:
 
 
         <div style="font-size: 1.05rem; color: #3F3F46; line-height: 1.65;">
-          Zhu, Y., Wang, J., Zhang, Y., Hwang, Y.H., Chi, D., Qiu, Y., Chen, X., Feng, C., <strong>Zhou, Z.</strong>, Huang, J., Burlando, P., and Tan, P.Y.
+          Zhu, Y., Wang, J., Zhang, Y., Hwang, Y.H., Chi, D., Qiu, Y., Chen, X., Feng, C., <strong>Zhou, Z.</strong>, Huang, J., Burlando, P., and Tan, P.Y. (2026).
           “Research-informed tools as a science-practice interface for mediating multifunctional design: reflections from a collaborative design research studio.”
-          <em>Socio-Ecological Practice Research</em>, in press.
+          <em>Socio-Ecological Practice Research</em>.
+          <br>
+          <a href="https://doi.org/10.1007/s42532-026-00273-0" target="_blank">https://doi.org/10.1007/s42532-026-00273-0</a>
         </div>
 
     design:
